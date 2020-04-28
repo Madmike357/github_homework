@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {     
+ text-decoration: none;
+ font-weight: bolder;
+}
+
+.nav1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+    
+.Nacho-guy{
+    width:40px; 
+    height:40px;
+}
+
+.Yahoo-logo{
+width:70px;
+height:40px;
+background-image: url('./Yahoo-512.png');
+background-size: cover;
+}
+
+
+p {
+    font-size:40px; 
+    text-align:center;
+}
+
+.nav2 ul{  
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none; 
+}
+
+.nav2 ul li {
+   padding: 20px;
+   border-right: 1px solid white;
+   
+}
+
+
+.nav3 {
+    
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./boarwalk.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
